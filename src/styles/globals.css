@@ -293,6 +293,26 @@ hr {
   background-color: #3776AB;
 }
 
+.skills-container .grid-skills .java:hover {
+  background-color: #2ecc71;
+}
+
+.skills-container .grid-skills .csharp:hover {
+  background-color: #3498db;
+}
+
+.skills-container .grid-skills .sccm:hover {
+  background-color: #34495e;
+}
+
+.skills-container .grid-skills .installshield:hover {
+  background-color: #7f8c8d;
+}
+
+.skills-container .grid-skills .adminstudio:hover {
+  background-color: #3498db;
+}
+
 /* Projects */
 .projects-container {
   padding: 2rem 0;
