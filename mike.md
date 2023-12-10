@@ -31,3 +31,30 @@ Utilisez à nouveau la commande git remote -v pour vous assurer que l'URL du ré
 bash
 Copy code
 git remote -v
+
+Si vous souhaitez remettre à zéro tous les changements Git localement, y compris annuler tous les commits et modifications non engagées, vous pouvez utiliser la commande git reset. Voici comment vous pouvez procéder:
+
+Pour annuler tous les changements non engagés (non suivis par Git):
+bash
+Copy code
+git clean -df
+Cette commande supprimera tous les fichiers et dossiers non suivis par Git. Assurez-vous de ne pas avoir des fichiers importants non suivis, car ils seront définitivement supprimés.
+
+Pour annuler tous les commits locaux et revenir à l'état initial (avant le premier commit):
+bash
+Copy code
+git reset --hard HEAD
+Cette commande annule tous les commits locaux et réinitialise votre répertoire de travail à l'état actuel du référentiel distant. Attention, cela supprimera toutes les modifications non engagées, alors assurez-vous de sauvegarder vos changements importants.
+
+Pour pousser ces modifications vers le référentiel distant (si nécessaire):
+bash
+Copy code
+git push origin --force
+Notez que l'utilisation de --force est nécessaire ici car vous modifiez l'historique du référentiel. Assurez-vous que personne d'autre ne travaille sur ce référentiel ou ne tire des modifications pendant ce processus, car cela pourrait entraîner des conflits.
+
+Assurez-vous de comprendre les implications de ces commandes, car elles peuvent avoir des conséquences graves sur l'historique du projet. Si vous travaillez avec d'autres personnes sur le même référentiel, assurez-vous de communiquer avec elles avant d'effectuer ces opérations, car cela peut perturber la collaboration.
+
+
+
+
+
