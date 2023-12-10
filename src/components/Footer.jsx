@@ -6,7 +6,7 @@ const Footer = () => {
             <hr/>
             <div className="footer-container">
                 <p>
-                    © {new Date().getFullYear()} Joel's Portfolio
+                    © {new Date().getFullYear()} Mikaël's Portfolio
                 </p>
                 <div className="social_icons">
                     <a
@@ -26,7 +26,7 @@ const Footer = () => {
                         <i className="fa-brands fa-github"></i>
                     </a>
                     <a
-                        href="www.linkedin.com/in/mikaël-nicole-5a18a720"
+                        href="https://www.linkedin.com/in/mikaël-nicole-5a18a720"
                         aria-label="LinkedIn"
                         target="_blank"
                         rel="noopener noreferrer"
