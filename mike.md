@@ -129,7 +129,6 @@ version déployée de votre application. Dans le cas présent, il s’agit
 de : https://kinsta-developer-portfolio-ir8w8.kinsta.app/
 
 Lien de déploiement sur Kinsta
-Lien de déploiement sur Kinsta
 Note : Le déploiement automatique a été activé, de sorte que Kinsta redéploie automatiquement votre application chaque
 fois que vous apportez des modifications à votre base de code et que vous la poussez sur GitHub.
 
