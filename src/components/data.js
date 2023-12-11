@@ -13,7 +13,7 @@ export const projectData = [
         title: 'Books Library App',
         description:
             'A simple Book Library App built with JavaScript. It helps readers have a good list of books they are either currently reading or have finished reading.',
-        gitHubLink: 'https://github.com/olawanlejoel/Book-Library',
+        gitHubLink: 'https://github.com/mikael1014/Book-Library',
     },
     {
         id: 3,
