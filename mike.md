@@ -76,5 +76,62 @@ npm i sharp
 Vous pouvez maintenant déployer votre application, et les images fonctionneront correctement avec l’optimisation
 complète que Next.js fournit.
 
+Comment déployer l’application Next.js sur Kinsta
+Une fois que vous serez satisfait de votre portfolio, qui présente vos meilleurs travaux de développement et des
+informations clés, vous voudrez probablement le partager avec d’autres, n’est-ce pas ? Voyons comment le faire en
+utilisant GitHub et la plateforme d’hébergement d’applications de Kinsta.
+
+Pousser votre code sur GitHub
+Vous pouvez vous préparer à pousser votre code en ouvrant votre terminal ou une invite de commande et en naviguant
+jusqu’au répertoire qui contient votre projet. Utilisez la commande suivante pour initialiser un dépôt Git local :
+
+git init
+Ajoutez maintenant votre code au dépôt Git local à l’aide de la commande suivante :
+
+git add .
+La commande ci-dessus ajoute tous les fichiers du répertoire actuel et de ses sous-répertoires au nouveau dépôt Git.
+Vous pouvez maintenant valider vos modifications à l’aide de la commande suivante :
+
+git commit -m "my first commit"
+Remarque : vous pouvez remplacer « my first commit » par votre propre message décrivant brièvement les modifications que
+vous avez apportées.
+
+Enfin, poussez votre code sur GitHub à l’aide des commandes suivantes :
+
+git remote add origin [repository URL]
+git push -u origin master
+Remarque : veillez à remplacer « [repository URL] » par l’URL de votre propre dépôt GitHub.
+
+Une fois ces étapes terminées, votre code sera poussé sur GitHub et accessible via l’URL de votre dépôt. Vous pouvez
+maintenant déployer votre dépôt sur Kinsta.
+
+Déployer votre portfolio sur Kinsta
+Le déploiement sur Kinsta se fait en quelques minutes. Commencez par le tableau de bord My Kinsta pour vous connecter ou
+créer votre compte.
+
+Ensuite, vous autoriserez Kinsta sur GitHub en suivant ces étapes rapides :
+
+Cliquez sur Applications dans la colonne latérale de gauche
+Cliquez sur Ajouter un service
+Dans le menu déroulant, cliquez sur Application parce que vous voulez déployer une application Next.js sur Kinsta.
+Créer un projet d'application dans MyKinsta
+Créer un projet d’application dans MyKinsta
+Une fenêtre modale apparaît dans laquelle vous pouvez sélectionner le référentiel que vous souhaitez déployer.
+
+Si vous avez plusieurs branches dans votre dépôt, vous pouvez sélectionner celle que vous souhaitez déployer. Vous
+pouvez également attribuer un nom à cette application. Assurez-vous de sélectionner un emplacement de centre de données
+parmi les 25 disponibles, puis Kinsta détectera automatiquement une commande de démarrage.
+
+Détecter automatiquement la commande de démarrage
+Détecter automatiquement la commande de démarrage
+À ce stade, votre application commencera à se déployer. Dans quelques minutes, un lien sera fourni pour accéder à la
+version déployée de votre application. Dans le cas présent, il s’agit
+de : https://kinsta-developer-portfolio-ir8w8.kinsta.app/
+
+Lien de déploiement sur Kinsta
+Lien de déploiement sur Kinsta
+Note : Le déploiement automatique a été activé, de sorte que Kinsta redéploie automatiquement votre application chaque
+fois que vous apportez des modifications à votre base de code et que vous la poussez sur GitHub.
+
 
 

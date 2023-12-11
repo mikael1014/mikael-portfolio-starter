@@ -10,7 +10,7 @@ const Navbar = () => {
                     Mikaël's Portfolio
                 </Link>
             </div>
-            <a href="" className="cta-btn">Resume</a>
+            <a href="https://docs.google.com/document/d/1bI4R2iZnyZWdbIuagHnVHzxSM0t7zlV0LfB4NQ1rwIY/edit" className="cta-btn">Resume</a>
         </div>
     )
 }

@@ -9,11 +9,11 @@ const About = () => {
             <div className="flex-about">
                 <div className="about-text">
                     <p>
-                        As a developer, I have always been passionate about creating elegant and effective solutions to
-                        complex problems. I have a strong foundation in software development, with a focus on web
-                        technologies such as HTML, CSS, and JavaScript. I enjoy working on both the front-end and
-                        back-end of applications, and I am always looking for ways to optimize performance, improve user
-                        experience, and ensure the highest level of code quality.
+                        As a developer, I have always been passionate about creating elegant and efficient solutions to
+                        complex problems. I have a strong foundation in software development and skills in technologies
+                        such as HTML, CSS, JavaScript, C#, Java and Python. I enjoy working on both the front end and
+                        back end of applications, and I'm always looking for ways to optimize performance, improve user
+                        performance experience, and ensure the most high level of code quality.
                     </p>
                     <p>Throughout my career, I have worked on a wide range of projects, from simple static websites to
                         complex enterprise-level applications. I am experienced in working with a variety of development
@@ -22,7 +22,7 @@ const About = () => {
                         my skills and knowledge.</p>
                 </div>
                 <div className="about-img">
-                    <Image src='/images/about.jpeg' className="profile-img" width={300} height={500}/>
+                    <Image src='/images/about.png' className="profile-img" width={300} height={500}/>
                 </div>
             </div>
         </div>
